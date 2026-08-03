@@ -17,13 +17,13 @@ StructuralChunker is not supposed to return an empty list for any document witho
 
 ## Week 8 — Reproduction & solution planning
 
-**Reproduction commit link:** [link to commit documenting the reproduced issue]
+**Reproduction commit link:** https://github.com/ascherj/pathreview/commit/c365e22c1a92590de989216cae2b763a77fe7b4a
 
 **Reproduction summary:**
 [1–2 sentences: How did you reproduce the issue? What did you observe?] 
 To reproduce the issue, I used one of the included unit tests within the pathreview project. Under the tests subfolder (pathreview/tests/unit/test_structural_chunker.py) and with the virtual environment activated, I ran the command "python3 -m pytest tests/unit/test_structural_chunker.py::TestStructuralChunker::test_document_with_no_headings -v", which specifically uses the test_document_with_no_headings function in the structural_chunker python file. Running the test function, it returns an AssertionError (assert 0>= 1). 
 
-**PLAN.md link:** [link to PLAN.md in your fork]
+**PLAN.md link:** https://github.com/JohnPhm/pathreview/blob/fix/149-structural-chunker-silently-drops-documents/PLAN.md
 
 **Walkthrough video (recommended):** [link to your Loom video, ≤2 min — recommended, not graded]
 
