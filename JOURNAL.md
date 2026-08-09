@@ -29,3 +29,34 @@ To reproduce the issue, I used one of the included unit tests within the pathrev
 
 **Blockers or open questions:**
 Going into week 9, I am still confused on how to write and modify unit tests to confirm that my fixes to the structural chunker works correctly. 
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+So far, I have been able to confirm that the issue exists and am able to reproduce the issue.
+
+**Next steps:**
+For the rest of the week, I will be working on the implementation of the issue fix. 
+
+**Blockers:**
+Going from planning to implementation is taking longer than I expected.  
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** [link to your submitted pull request]
+
+**Branch:** fix/149-structural-chunker-silently-drops-documents
+
+**What you built:**
+[1–3 sentences summarizing what your fix does and how it works]
+
+**Tests added or updated:**
+[Which test files did you touch? What do they cover?]
+
+**Self-review confirmation:** [ ] make check passes  [ ] make test-unit passes
+
+**Draft PR feedback received from:** [name or Slack handle, or "none"]
