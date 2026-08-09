@@ -47,16 +47,17 @@ Going from planning to implementation is taking longer than I expected.
 
 ### Check-in 2 (end of week)
 
-**PR link:** [link to your submitted pull request]
+**PR link:** https://github.com/ascherj/pathreview/pull/1014
 
 **Branch:** fix/149-structural-chunker-silently-drops-documents
 
 **What you built:**
-[1–3 sentences summarizing what your fix does and how it works]
+For structural_chunker.py, the fix introduced was on the content branch and the final save. I removed both gates so that the lines are always collected. Furthermore, the current_level variable was removed as it was not being used. 
+For test_structural_chunker.py, the functions test_heading_path_format and test_heading_path_breadcrumb both had a boolean flag inside a loop that never got checked. This meant that both passed even if chunk() returned nothing. This was resolved by adding a trailing assertion to both of the functions. 
 
 **Tests added or updated:**
-[Which test files did you touch? What do they cover?]
+The files that I touched include structural_chunker.py and test_structural_chunker.py. These two files are the ones that contain the actual error itself. Structural_chunker.py is the file that works as a chunker for RAG systems. The test_structural_chunker.py file works to test the functionality of each function found in the structural_chunker.py file. 
 
-**Self-review confirmation:** [ ] make check passes  [ ] make test-unit passes
+**Self-review confirmation:** [X] make check passes  [X] make test-unit passes
 
-**Draft PR feedback received from:** [name or Slack handle, or "none"]
+**Draft PR feedback received from:** None
