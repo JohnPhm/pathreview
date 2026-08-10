@@ -56,7 +56,7 @@ For structural_chunker.py, the fix introduced was on the content branch and the 
 For test_structural_chunker.py, the functions test_heading_path_format and test_heading_path_breadcrumb both had a boolean flag inside a loop that never got checked. This meant that both passed even if chunk() returned nothing. This was resolved by adding a trailing assertion to both of the functions. 
 
 **Tests added or updated:**
-The files that I touched include structural_chunker.py and test_structural_chunker.py. These two files are the ones that contain the actual error itself. Structural_chunker.py is the file that works as a chunker for RAG systems. The test_structural_chunker.py file works to test the functionality of each function found in the structural_chunker.py file. 
+The files that I touched include structural_chunker.py and test_structural_chunker.py. These two files are the ones that contain the actual error itself. Structural_chunker.py is the file that works as a chunker for RAG systems. The test_structural_chunker.py file works to test the functionality of each function found in the structural_chunker.py file. More specifically, the function test_document_with_no_headings() tests the implementation of the new code as it presents the chunker with a heading-less document. If the test passes, then it means that our logic and implementation was correct. 
 
 **Self-review confirmation:** [X] make check passes  [X] make test-unit passes
 
