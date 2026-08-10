@@ -35,13 +35,13 @@ Going into week 9, I am still confused on how to write and modify unit tests to 
 ### Check-in 1 (mid-week)
 
 **Current progress:**
-So far, I have been able to confirm that the issue exists and am able to reproduce the issue.
+So far, I have been able to confirm that the issue exists and am able to reproduce the issue. This was done using the test_structural_chunker.py testing file, which resulted in the message "assert 0 >= 1" and lets us know that the functionality of structural chunker is incorrect. 
 
 **Next steps:**
-For the rest of the week, I will be working on the implementation of the issue fix. 
+For the rest of the week, I will be working on the implementation of the issue fix as well as the documentation and reasoning behind the implementation. 
 
 **Blockers:**
-Going from planning to implementation is taking longer than I expected.  
+Going from planning to implementation is taking longer than I expected. Furthermore, there are many errors that occur from using make lint, more specifically, there are 77 errors. 
 
 ---
 
