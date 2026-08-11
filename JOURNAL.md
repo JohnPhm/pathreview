@@ -61,3 +61,44 @@ The files that I touched include structural_chunker.py and test_structural_chunk
 **Self-review confirmation:** [X] make check passes  [X] make test-unit passes
 
 **Draft PR feedback received from:** None
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [X] No — still awaiting review
+
+**Summary of feedback:**
+I am still waiting for feedback of my pull request. 
+
+**How you responded:**
+[What changes did you make, or what did you reply? If no feedback,
+leave blank.]
+Since I did not technically receive any feedback about my PR on GitHub itself, I based my changes on the feedback that I received from the CodePath graders. The main feedback that I received about my PR was certain areas were lacking detail, such as the testing methodology and reasons why the test should be included/used. I added more detailing, explaining what the tests did and why I included/noted them in the PR. Furthermore, I also explained why I changed each file related to the issue and noted the reason why the issue occurred and why the solution worked. 
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+[Be specific — what part of the process, codebase, or workflow
+surprised you?]
+For me, the parts that were harder than I expected were contributing to GitHub using the git commands in the terminal and attempting to fix the errors found when using 'make check'. I ran into multiple issues trying to connect my local machine to my GitHub as it kept asking me for reauthentication since my token expired. I had to generate a new one and I used Claude to guide me through the process as this was the first time I have encountered this error. On the other hand, I used the command 'make check' and there were 77 errors that resulted from the command. For a while, I thought that I needed to correct these errors before committing and pushing to GitHub but in retrospect, I realized this too far down the line. My section of interest did not come into contact with the majority of the errors so I did not have to fix the errors myself. Only the errors that concerned the area around my issue would need to be fixed. This made it difficult at the beginning but I realized that it was unncessary to fix.
+
+**What did you learn about working in a large codebase?**
+[What's different about contributing to someone else's production code
+vs. building your own project?]
+I learned that building my own project and contributing to someone else's production code requires you to follow the guidelines that are established so that everyone contributing to that codebase is able to easily understand the changes. If there are coding conventions and contribution guidelines laid out, then it is best if I follow it to not risk my contributions being rejected. 
+
+**How did AI tools help — and where did they fall short?**
+[Where was AI assistance most useful this module? Where did you need
+to go beyond what AI could give you?]
+For this module, I used Claude to assist me whenever I encountered an error. There were times when the token for authentication expired and I had to browse through the GitHub settings to generate a new token and reauthenticate it. Claude helped walked me through this process and explain what and why it happened. The areas where Claude fell short include suggestions for the first implementation of structural_chunker.py. I had to read through the structural_chunker.py file itself and provided extra context to Claude so that it can provide further fixes to the new implementation. 
+
+**What would you do differently if you started over?**
+[Issue selection, planning, implementation, or process — anything
+you'd change?]
+If I started over, I would focus more on the process of iteratively fixing and committing each implementation. During the course of this module and the previous module, I was able to apply the correct implementation to alleviate the issue but I kept forgetting to regularly commit my changes and documenting why I included each change. This made it difficult as each time I took a break and came back, I felt momentarily lost as I had nothing to refer to in terms of my progress. 
+
+**What are you most proud of from this module?**
+The thing that I am most proud of from this module would be becoming proficient in using Git to stage and commit code directly from the VSCode terminal while also maintaining the standard of the commits. 
